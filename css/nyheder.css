@@ -6,6 +6,14 @@
   gap: 50px;
 }
 
+main {
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: white;
+}
+
 .nh_grid1 {
   grid-column: 1/2;
 }
@@ -26,4 +34,5 @@ img {
 
 h1 {
   text-align: center;
+  padding-top: 25px;
 }
