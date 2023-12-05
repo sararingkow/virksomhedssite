@@ -69,5 +69,14 @@ p {
 }
 
 .topnav a.split {
+  float: left;
+  background-color: #ffffff;
+}
+
+.topnav a.split:hover {
+  background-color: #4b4b4b;
+}
+
+.topnav a.split {
   background-color: #ffffff;
 }
