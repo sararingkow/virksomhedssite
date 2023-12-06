@@ -6,12 +6,12 @@
   gap: 50px;
 }
 
-main {
-  background-color: #f8f8f8;
-}
-
 header {
   background-color: white;
+}
+
+main {
+  background-color: #f8f8f8;
 }
 
 .nh_grid1 {

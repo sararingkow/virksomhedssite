@@ -13,63 +13,72 @@ p {
   font-family: "Montserrat";
 }
 
+.header-menu {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: "Montserrat";
+  margin: 30px;
+}
+
+.header-menu a {
+  float: left;
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.header-menu a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  color: #ddd;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
   z-index: 1;
-  left: 0;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropbtn {
-  font-family: "Montserrat";
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 
 .dropdown-content a {
-  font-family: "Montserrat";
+  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-content a:hover {
+  color: #ddd;
+}
+
+.show {
   display: block;
 }
 
-.header-menu {
-  font-family: "Montserrat";
-  overflow: hidden;
-  background-color: #ffffff;
-  padding: 20px;
-}
-
-.header-menu a {
-  color: #000000;
-  float: right;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 .header-menu a.split {
-  float: left;
   background-color: #ffffff;
 }
 

@@ -14,12 +14,14 @@
     <header>
         <nav>
             <div class="header-menu">
-                <a href="#">Om MAK</a>
-                <a href="#">Nyheder</a>
-                <a href="#">Kontakt</a>
+                <a href="mak.html">Om MAK</a>
+                <a href="nyheder.html">Nyheder</a>
+                <a href="kontakt.html">Kontakt</a>
                 <div class="dropdown">
-                    <button class="dropbtn">Vær med</button>
-                    <div class="dropdown-content">
+                    <button class="dropbtn" onclick="myFunction()">Vær med
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
                         <a href="frivillig.html">Bliv frivillig</a>
                         <a href="brigade.html">Tag på brigade</a>
                     </div>
@@ -112,6 +114,7 @@
                 <br>
             </div>
         </div>
+        <script src="js/script.js"></script>
     </main>
 </body>
 
