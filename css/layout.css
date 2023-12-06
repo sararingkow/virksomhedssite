@@ -53,14 +53,14 @@ p {
   display: block;
 }
 
-.topnav {
+.header-menu {
   font-family: "Montserrat";
   overflow: hidden;
   background-color: #ffffff;
   padding: 20px;
 }
 
-.topnav a {
+.header-menu a {
   color: #000000;
   float: right;
   padding: 14px 16px;
@@ -68,15 +68,15 @@ p {
   font-size: 17px;
 }
 
-.topnav a.split {
+.header-menu a.split {
   float: left;
   background-color: #ffffff;
 }
 
-.topnav a.split:hover {
+.header-menu a.split:hover {
   background-color: #4b4b4b;
 }
 
-.topnav a.split {
+.header-menu a.split {
   background-color: #ffffff;
 }
