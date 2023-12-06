@@ -19,6 +19,11 @@ main {
   height: auto;
 }
 
+.image {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .om_image_grid img {
   width: 100%;
   height: auto;
@@ -35,7 +40,7 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-155%, -240%);
+  transform: translate(-145.5%, -240%);
 }
 
 p {
