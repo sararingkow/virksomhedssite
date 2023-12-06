@@ -1,1 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Montserrat";
+}
+
+main {
+  margin: 60px;
+}
+
+.header-menu {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: "Montserrat";
+  margin: 30px;
+}
+
+.header-menu a {
+  float: left;
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.header-menu a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  color: #ad0000;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: #ad0000;
+}
+
+.show {
+  display: block;
+}
+
+.header-menu a.split {
+  background-color: #ffffff;
+}
+
+.header-menu a.split:hover {
+  background-color: #4b4b4b;
+}
+
+.header-menu a.split {
+  background-color: #ffffff;
+}
