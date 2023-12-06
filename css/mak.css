@@ -1,0 +1,21 @@
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+  padding: 20px;
+  gap: 50px;
+}
+
+header {
+  background-color: white;
+}
+
+main {
+  background-color: #f8f8f8;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
