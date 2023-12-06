@@ -1,5 +1,39 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .komiteer {
+}
+
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 15%;
+  width: 400px;
+  gap: 5px;
+}
+
+#Besked {
+  height: 100px;
+  background-color: ;
+}
+
+button {
+  width: 60px;
+}
+
+@media only screen and (min-width: 900px) {
+  .komiteer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 18%;
+    margin-bottom: 60px;
+  }
 }
