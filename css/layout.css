@@ -49,7 +49,7 @@ p {
 .header-menu a:hover,
 .dropdown:hover .dropbtn,
 .dropbtn:focus {
-  color: #ddd;
+  color: #ad0000;
 }
 
 .dropdown-content {
@@ -71,7 +71,7 @@ p {
 }
 
 .dropdown-content a:hover {
-  color: #ddd;
+  color: #ad0000;
 }
 
 .show {

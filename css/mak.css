@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   margin: 20px;
   padding: 20px;
-  gap: 50px;
+  gap: 60px;
 }
 
 header {
@@ -17,5 +17,27 @@ main {
 .image img {
   width: 100%;
   height: auto;
-  display: block;
+}
+
+.om_image_grid img {
+  width: 80%;
+  height: auto;
+}
+
+.om_image_grid {
+  grid-column: 2/-1;
+}
+
+.centered {
+  font-family: "Montserrat";
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-155%, -240%);
+}
+
+p {
+  font-size: 15px;
 }
