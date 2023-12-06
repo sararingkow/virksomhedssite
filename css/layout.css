@@ -13,6 +13,10 @@ p {
   font-family: "Montserrat";
 }
 
+main {
+  margin: 60px;
+}
+
 .header-menu {
   overflow: hidden;
   background-color: #ffffff;
