@@ -8,14 +8,14 @@
 
 .image img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px;
+  height: 450px;
+  width: 1040px;
 }
 
 .image {
-  height: 500px;
-  width: 1380px;
-  display: flex;
+  height: 400px;
+  width: 977px;
 }
 
 .om_image_grid {
@@ -42,10 +42,9 @@ h2 {
   font-size: 45px;
   color: white;
   text-align: center;
-  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-100%, -100%);
+  transform: translate(5%, -204%);
 }
 
 p {
@@ -73,13 +72,9 @@ p {
     justify-content: center;
   }
 
-  .om_image_grid img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .om_image_grid {
-    grid-column: 2/-1;
+  .col_2-4 img {
+    width: 50%;
+    height: 50%;
   }
 
   .centered {
@@ -88,7 +83,7 @@ p {
     color: white;
     top: 50%;
     left: 50%;
-    transform: translate(-70%, -100%);
+    transform: translate(20%, -220%);
   }
 
   p {
