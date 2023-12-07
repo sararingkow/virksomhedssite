@@ -1,4 +1,4 @@
-.container2 {
+.grid_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px;
@@ -7,8 +7,9 @@
 }
 
 .image img {
-  width: 100%;
-  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
@@ -17,25 +18,34 @@
   display: flex;
 }
 
-.om_image_grid img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-
 .om_image_grid {
   grid-column: 2/-1;
 }
 
+.om_image_grid img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: white;
+  border: solid;
+  border-color: #24292f;
+  border-width: 10px;
+  background-color: #24292f;
+  text-align: center;
+}
+
 .centered {
   font-family: "Montserrat";
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-100%, -240%);
+  transform: translate(-100%, -100%);
 }
 
 p {
@@ -43,8 +53,7 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
-  .container2 {
-    display: grid;
+  .grid_2 {
     grid-template-columns: 1fr;
     margin: 40px;
     padding: 10px;
@@ -52,8 +61,9 @@ p {
   }
 
   .image img {
-    width: 500%;
-    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .image {

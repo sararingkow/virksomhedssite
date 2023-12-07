@@ -8,8 +8,7 @@
 h1,
 h2,
 h3,
-h4,
-li {
+p {
   font-family: "Montserrat";
 }
 
@@ -17,18 +16,19 @@ main {
   margin: 40px;
 }
 
-.header-menu1 {
+.menu {
   overflow: hidden;
+  display: flex;
   background-color: #ffffff;
   font-family: "Montserrat";
 }
 
 nav {
-  margin-left: 30px;
+  margin-left: 60px;
   margin-top: 30px;
 }
 
-.header-menu1 a {
+.menu a {
   float: left;
   font-size: 17px;
   color: #000000;
@@ -54,7 +54,7 @@ nav {
   margin: 0;
 }
 
-.header-menu1 a:hover,
+.menu a:hover,
 .dropdown:hover .dropbtn,
 .dropbtn:focus {
   color: #ad0000;
@@ -87,14 +87,39 @@ nav {
   display: block;
 }
 
-.header-menu1 a.split {
+.menu a.split {
   background-color: #ffffff;
 }
 
-.header-menu1 a.split:hover {
+.menu a.split:hover {
   background-color: #4b4b4b;
 }
 
-.header-menu1 a.split {
+.menu a.split {
   background-color: #ffffff;
+}
+
+.centered {
+  font-family: "Montserrat";
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -240%);
+}
+
+p {
+  font-size: 18px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation h4,
+.navigation li a {
+  font-family: "Montserrat";
 }
