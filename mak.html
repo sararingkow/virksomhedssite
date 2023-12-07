@@ -6,38 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/mak.css">
+    <meta name="robots" content="noindex">
     <title>Om MAK</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="header-menu">
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Vær med
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="frivillig.html">Bliv frivillig</a>
+                    <a href="brigade.html">Ta' på brigade</a>
+                </div>
+            </div>
+            <div class="menu">
                 <a href="mak.html">Om MAK</a>
                 <a href="nyheder.html">Nyheder</a>
                 <a href="kontakt.html">Kontakt</a>
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Bliv frivillig
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content" id="myDropdown">
-                        <a href="frivillig.html">Bliv frivillig</a>
-                        <a href="brigade.html">Tag på brigade</a>
-                    </div>
-                </div>
             </div>
         </nav>
     </header>
     <main>
+
         <div class="image">
-            <img src="img/maxresdefault.jpg" alt="dummy-billede">
-            <div class="centered">
-                <h1>Om MAK</h1>
-            </div>
+            <img src="img/maxresdefault.webp" alt="dummy-billede">
         </div>
-        <div class="container2">
-            <div class="om_text_grid1">
+        <div class="centered">
+            <h1>Om MAK</h1>
+        </div>
+        <div class="grid_2">
+            <div class="col_2-1">
                 <h2>Om MAK</h2>
+                <br>
                 <p><strong>Mellemamerika Komiteen er en solidaritetsorganisation. I daglig tale kalder vi os MAK. Vores
                         formål
                         er at mobilisere en aktiv solidaritet med befolkningerne i Mellemamerika.</strong><br>
@@ -60,13 +63,14 @@
                     MAK er kendetegnet ved en flad struktur, som gør det muligt for medlemmerne at engagere sig og være
                     med til at sætte dagsordenen for vores arbejde.
                     Det årlige landsmøde for alle medlemmer er Mellemamerika Komiteens øverste organ. På landsmødet
-                    tager vi de vigtigste beslutninger og vælger repræsentanter... <br><strong><em>Læs mere
-                            >></em></strong>
+                    tager vi de vigtigste beslutninger og vælger repræsentanter... <strong><em><u>Læs mere
+                                >></u></em></strong>
                 </p>
             </div>
-            <div class="om_text_grid2">
+            <div class="col_2-2">
                 <h2>Organisering</h2>
-                <p><strong>Mellemamerika Komitéen er en solidaritetsorganisation med en ’flad’ struktur. Det betyder, at
+                <br>
+                <p><strong>Mellemamerika Komitéen er en solidaritetsorganisation med en 'flad' struktur. Det betyder, at
                         vores
                         baggrundsgrupper er organisationens rygrad, og at grupperne arbejder selvstændigt.</strong><br>
                     <br>
@@ -76,23 +80,23 @@
                     <br>
                     <strong>Baggrundsgrupperne er Mellemamerika Komitéens rygrad</strong>
                     <br>
-                    Vores projektarbejde foregår i MAK’s mange baggrundsgrupper. De er organisationens rygrad. De
+                    Vores projektarbejde foregår i MAK's mange baggrundsgrupper. De er organisationens rygrad. De
                     enkelte baggrundsgrupper har autonomi og har dermed selv ansvaret for deres projekter.
                     Baggrundsgrupperne har projekter i Honduras, Guatemala og Nicaragua. <br>
                     <br>
                     <strong>Vi tager de vigtigste beslutninger på landsmødet</strong>
                     <br>
                     En gang om året afholder vi landsmøde for alle medlemmer. Det er her vi tager de vigtigste
-                    beslutninger og vælger repræsentanter til ’forretningsudvalget’ (FU)... <br><strong><em>Læs mere
-                            >></em></strong>
+                    beslutninger og vælger repræsentanter til 'forretningsudvalget' (FU). <br><br>FU varetager den
+                    overordnede
+                    koordinering af vores arbejde. Alle medlemmer kan stille op og være med til at vælge FU's
+                    repræsentanter... <strong><em><u>Læs mere
+                                >></u></em></strong>
                 </p>
             </div>
-
-            <div class="om_text_grid3">
-                <hr>
-                <br>
-                <br>
+            <div class="col_2-3">
                 <h2>Arbejde</h2>
+                <br>
                 <p><strong>Mellemamerika Komitéen støtter aktivt kampen for social retfærdighed, selvbestemmelse og
                         menneskerettigheder. Vi udvikler projekter i Mellemamerika sammen med vores lokale partnere og
                         laver
@@ -117,15 +121,12 @@
                     <br>
                     Du kan læse om de forskellige projekter nedenfor hvis du scroller videre, eller bruger menuen til at
                     hoppe til det emne der interesserer dig...
-                    <strong><em>Læs mere >></em></strong>
+                    <strong><em><u>Læs mere >></u></em></strong>
                 </p>
-                <br>
             </div>
-            <div class="om_text_grid4">
-                <hr>
-                <br>
-                <br>
+            <div class="col_2-4">
                 <h2>Historie</h2>
+                <br>
                 <p><strong>Mellemamerika Komiteen er en solidaritetsorganisation, der siden 1980 har arbejdet for at
                         styrke det
                         fattige flertals sociale og politiske vilkår i Mellemamerika. Mellemamerika Komiteen støtter
@@ -133,7 +134,7 @@
                         kampen for selvbestemmelse og social retfærdighed og prioriterer det direkte samarbejde med de
                         folkelige organisationer i Mellemamerika.</strong><br>
                     <br>
-                    <strong>1980’erne</strong>
+                    <strong>1980'erne</strong>
                     <br>
                     Mellemamerika Komiteen blev stiftet i 1980 under navnet Nicaragua Komiteen. Stifterne var en række
                     forskellige kræfter fra den danske fagbevægelse og venstrefløj, der samledes i en såkaldt komité for
@@ -142,19 +143,47 @@
                     Nicaragua. Brigaderne bestod af danskere, der med en konkret arbejdsindsats ønskede at støtte det
                     sandinistiske styre i Nicaragua, der på det tidspunkt var under hårdt pres fra Contra-guerillaen. De
                     danske brigader hjalp i første omgang til ved kaffehøsten, hvor der på grund af krigsindsatsen var
-                    mangel på arbejdskraft...
-                    <strong><em>Læs mere >></em></strong>
+                    mangel på arbejdskraft... <br>
+                    <strong><em><u>Læs mere >></u></em></strong>
                 </p>
                 <br>
                 <br>
-                <br>
                 <div class="om_image_grid">
-                    <img src="img/R.jpeg" alt="dummy-billede">
+                    <img src="img/R.webp" alt="dummy-billede">
                 </div>
             </div>
         </div>
     </main>
     <script src="js/script.js"></script>
 </body>
+<footer>
+    <div class="navigation">
+        <nav class_nav1>
+            <menu>
+                <h4>Om MAK</h4>
+                <li><a></a></li>
+            </menu>
+        </nav>
+        <nav class="nav2">
+            <menu>
+                <h4>Nyheder</h4>
+                <li><a></a></li>
+            </menu>
+        </nav>
+        <nav class="nav3">
+            <menu>
+                <h4>Bliv Frivillig</h4>
+                <li><a></a></li>
+                <li><a></a></li>
+            </menu>
+        </nav>
+        <nav class="nav4">
+            <menu>
+                <h4>Kontakt</h4>
+                <li><a></a></li>
+            </menu>
+        </nav>
+    </div>
+</footer>
 
 </html>

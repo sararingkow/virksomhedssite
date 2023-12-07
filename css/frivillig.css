@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*MAIN COLUMN*/
+
+.main-column {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 5%;
+  text-align: justify;
+}
+
+.main-column img {
+  height: 340px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*STICKY COLUMN*/
+.wrapper {
+  display: flex;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #000;
+}
+
+.p {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.sticky-column {
+  flex: 1;
+  background: #b0c9ae;
+  box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
+}
+
+.sticky-indhold {
+  position: sticky;
+  top: 0px;
+  padding: 10%;
+}
+
+/*KONTAKT FORM*/
+form {
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #a11a17;
+  margin-top: 20px;
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18);
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.h2 {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+form button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/*KNAP STYLING*/
+button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 60px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(231, 101, 101);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+  background-color: rgb(127, 0, 0);
+}
+
+button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/*LINK STYLING*/
+/* unvisited link */
+a:link {
+  color: #a11a17;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(231, 101, 101);
+}
+
+/* Mindre skærme (mobil) */
+@media (max-width: 1000px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .sticky-column,
+  .main-column {
+    flex: initial; /* Fjerner flex-egenskaber på mindre skærme */
+    width: 100%; /* Fylder hele bredden på mindre skærme */
+    position: static; /* Fjerner sticky position på mindre skærme */
+  }
+}
