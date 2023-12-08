@@ -8,8 +8,7 @@
 h1,
 h2,
 h3,
-h4,
-li {
+p {
   font-family: "Montserrat";
 }
 
@@ -17,18 +16,21 @@ main {
   margin: 40px;
 }
 
-.header-menu1 {
+.menu {
   overflow: hidden;
+  display: flex;
   background-color: #ffffff;
   font-family: "Montserrat";
+  justify-content: flex-end;
+  margin-right: 60px;
 }
 
 nav {
-  margin-left: 30px;
+  margin-left: 60px;
   margin-top: 30px;
 }
 
-.header-menu1 a {
+.menu a {
   float: left;
   font-size: 17px;
   color: #000000;
@@ -54,7 +56,7 @@ nav {
   margin: 0;
 }
 
-.header-menu1 a:hover,
+.menu a:hover,
 .dropdown:hover .dropbtn,
 .dropbtn:focus {
   color: #ad0000;
@@ -87,14 +89,135 @@ nav {
   display: block;
 }
 
-.header-menu1 a.split {
+.menu a.split {
   background-color: #ffffff;
 }
 
-.header-menu1 a.split:hover {
+.menu a.split:hover {
   background-color: #4b4b4b;
 }
 
-.header-menu1 a.split {
+.menu a.split {
   background-color: #ffffff;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Generelle stilarter for footer */
+.site-footer {
+  background-color: #24292f;
+  color: #ffffff;
+  padding: 0;
+}
+
+.site-footer .bottom_text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo-footer {
+  width: 100%;
+  padding-top: 0;
+}
+
+i {
+  font-size: 40px;
+  color: #a11a17;
+}
+
+i:hover {
+  color: rgb(231, 101, 101);
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.site-footer a {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* Footer container og kolonner */
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 15px;
+  max-width: 250px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Stilarter for teksten og logoet */
+.site-footer h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.site-footer p {
+  font-size: 14px;
+  line-height: 2;
+  padding: 1%;
+}
+
+.site-footer img {
+  max-width: 120px;
+}
+
+.site-footer a:hover {
+  color: #afafaf;
+}
+
+/* Social medie ikoner og responsivt layout */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+/* Responsivitet for mindre skærmstørrelser */
+@media (max-width: 800px) {
+  .site-footer h3,
+  a,
+  p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .logo-footer {
+    width: 80%;
+  }
+
+  .site-footer img {
+    max-width: 120px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+
+  .social-icons a {
+    margin: 0 5px;
+    margin-left: 0px;
+  }
+
+  .social-icons {
+    margin-left: 0px;
+  }
 }
