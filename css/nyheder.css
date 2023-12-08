@@ -1,5 +1,7 @@
 @media (min-width: 900px) {
-  .container {
+  .grid_3-1,
+  .grid_3-2,
+  .grid_3-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 20px;
@@ -11,15 +13,19 @@
     background-color: white;
   }
 
-  .nh_grid1 {
+  main {
+    background-color: #f8f8f8;
+  }
+
+  .col_3-1 {
     grid-column: 1/2;
   }
 
-  .nh_grid2 {
+  .col_3-2 {
     grid-column: 2/3;
   }
 
-  .nh_grid3 {
+  .col_3-3 {
     grid-column: 3/3;
   }
 
@@ -31,6 +37,6 @@
 
   h1 {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 100px;
   }
 }

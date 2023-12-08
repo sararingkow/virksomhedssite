@@ -1,0 +1,11 @@
+. {
+  margin-left: 32%;
+}
+
+.grid_4-1,
+.grid_4-2,
+.grid_4-3,
+.grid_4-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

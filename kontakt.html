@@ -6,58 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="css/kontakt.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
-<main>
-    <img src="img/kontaktbillede.webp" alt="kontaktbillede">
-</main>
 
 <body>
 
+    <h1>Kontakt</h1>
+    <img src="img/cropped_kontaktbillede.webp" alt="kontaktbillede">
 
-    <div class="komiteer">
-        <div class="komitee_danmark">
-            <h1>Mellemamerika Komiteen <br> Danmark</h1>
-            <p>Griffenfeldsgade 41, 1. sal <br>
-                2200 København N.</p>
-            <p>Kontakt vores landssekretær <br> som kan hjælpe dig via e-mail:</p>
-            <a href="info@makomiteen.dk">info@makomiteen.dk</a>
+
+    <main>
+        <div class="komiteer">
+            <div class="komitee_danmark">
+                <h2>Mellemamerika Komiteen <br> Danmark</h2>
+                <p>Griffenfeldsgade 41, 1. sal <br>
+                    2200 København N.</p>
+                <p>Kontakt vores landssekretær <br> som kan hjælpe dig via e-mail:</p>
+                <a href="info@makomiteen.dk">info@makomiteen.dk</a>
+            </div>
+
+            <div class="komitee_aarhus">
+                <h2>Mellemamerika Komiteen <br /> lokalafdeling i Aarhus</h2>
+                <p>Mejlgade 53 <br>
+                    8000 Århus C</p>
+                <a href="aarhus@makomiteen.dk">aarhus@makomiteen.dk</a>
+            </div>
+
+            <div class="komitee_kobenhavn">
+                <h2>Mellemamerika Komiteen <br> lokalafdeling i København</h2>
+                <p>Kontakt lokalgruppe København <br> via e-mail eller telefonnummer:</p>
+                <p>Telefonnr.: 21521740</p>
+                <a href="kbh@makomiteen.dk">kbh@makomiteen.dk</a>
+            </div>
+
+            <div class="komitee_frivillig">
+                <h2>Mellemamerika Komiteen <br> Frivillig- og Eventkoordinator</h2>
+                <p>Kontakt Frivillig- og eventkoordinator med via e-mail:</p>
+                <a href="event@makomiteen.dk">event@makomiteen.dk</a>
+            </div>
         </div>
 
-        <div class="komitee_aarhus">
-            <h1>Mellemamerika Komiteen <br /> lokalafdeling i Aarhus</h1>
-            <p>Mejlgade 53 <br>
-                8000 Århus C</p>
-            <a href="aarhus@makomiteen.dk">aarhus@makomiteen.dk</a>
+        <div class="Join_us">
+            <div class="join_brigade">
+                <img src="img/P1010040.webp" alt="join brigade">
+                <a href="frivillig.html">Tilmeld dig til brigadegruppen!</a>
+            </div>
+
+            <div class="bliv_praktikant">
+                <img src="img/IMG_9731.webp" alt="bliv praktikant">
+                <a href="frivillig.html">Bliv en praktikant!</a>
+            </div>
         </div>
 
-        <div class="komitee_kobenhavn">
-            <h1>Mellemamerika Komiteen <br> lokalafdeling i København</h1>
-            <p>Kontakt lokalgruppe København <br> via e-mail eller telefonnummer: <br>Telefonnr.: 21521740</p>
-            <a href="kbh@makomiteen.dk">kbh@makomiteen.dk</a>
+
+
+
+        <div class="formular_grid">
+            <div class="form_part">
+                <h2>Kontakt</h2>
+                <p>Har du spørgsmål eller andre henvendelser, så <br>kontakt os via nedenstående formular og så vender
+                    vi
+                    tilbage hurtigst muligt.</p>
+                <form name="kontakt" netlify>
+                    <!-- Formular-indhold -->
+                    <label for="Navn"> Navn</label>
+                    <input id="Navn" name="Navn" type="text">
+
+                    <label for="Email">Email</label>
+                    <input id="Email" name="Email" type="email">
+
+                    <label for="Besked">Besked</label>
+                    <input id="Besked" name="Besked" type="text">
+                    <button>Indsend</button>
+                </form>
+            </div>
+            <div>
+                <img src="img/IMG_9727.webp" alt="kontaktformular_billede">
+            </div>
         </div>
-
-        <div class="komitee_frivillig">
-            <h1>Mellemamerika Komiteen <br> Frivillig- og Eventkoordinator</h1>
-            <p>Kontakt Frivillig- og eventkoordinator med via e-mail:</p>
-            <a href="event@makomiteen.dk">event@makomiteen.dk</a>
-        </div>
-    </div>
-
-    <form name="kontakt" netlify>
-        <!-- Formular-indhold -->
-        <label for="Navn"> Fornavn</label>
-        <input id="Navn" name="Navn" type="text">
-
-        <label for="Email">Efternavn</label>
-        <input id="Email" name="Email" type="email">
-
-        <label for="Besked">E-mail</label>
-        <input id="Besked" name="Besked" type="text">
-        <button>Indsend</button>
-        </div>
-    </form>
-
+    </main>
 
 </body>
+
+<footer>
+    <div class="navigation">
+        <nav class_nav1>
+            <menu>
+                <h4>Om MAK</h4>
+                <li><a></a></li>
+            </menu>
+        </nav>
+        <nav class="nav2">
+            <menu>
+                <h4>Nyheder</h4>
+                <li><a></a></li>
+            </menu>
+        </nav>
+        <nav class="nav3">
+            <menu>
+                <h4>Bliv Frivillig</h4>
+                <li><a></a></li>
+                <li><a></a></li>
+            </menu>
+        </nav>
+        <nav class="nav4">
+            <menu>
+                <h4>Kontakt</h4>
+                <li><a></a></li>
+            </menu>
+        </nav>
+    </div>
+</footer>
 
 </html>
