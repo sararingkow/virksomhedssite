@@ -6,137 +6,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/frivillig.css">
     <link rel="stylesheet" href="css/layout.css">
+    <meta name="robots" content="noindex">
     <title>Bliv frivillig</title>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="combined-column">
         <div class="sticky-column">
-            <!-- Indhold til den venstre sticky kolonne -->
+            <!-- Indhold til den sticky venstre kolonne -->
+            <!-- Kopier dit eksisterende indhold her -->
             <div class="sticky-indhold">
                 <h1> Er du interesseret i at blive frivillig hos MAK?</h1>
                 <br>
                 <p class="p">For at begynde, bedes du venligst udfylde vores ansøgningsformular nedenfor.</p>
 
-                <form netlify>
+                <form name="kontakt" netlify>
                     <!-- Formular-indhold -->
-                    <div class="form-felt">
-                        <h2 class="h2">Bliv frivillig!</h2>
-                        <br>
-                        <p class="p">
-                            Beskriv venligst dine tidligere frivillige engagementer og de områder, du ønsker at bidrage
-                            til hos MAK.
-                        </p>
-                        <br>
-                        <label for="navn">Navn
-                            <input placeholder="fx Peter" type="text" name="fnavn" required>
-                        </label>
-                        <br>
-                        <label for="email">E-mail
-                            <input placeholder="fx Peterjensen@gmail.com" type="text" name="femail" required>
-                        </label>
-                        <br>
-                        Besked
-                        <br>
-                        <label>
-                            <textarea name="besked" rows="5"></textarea>
-                        </label>
-                    </div>
-                    <button type="submit">Send</button>
+                    <h3>Bliv Frivillig!</h3>
+                    <label for="Navn"> Navn</label>
+                    <input id="Navn" name="Navn" type="text">
+
+                    <label for="Email">Email</label>
+                    <input id="Email" name="Email" type="email">
+
+                    <label for="Besked">Besked</label>
+                    <label>
+                        <textarea name="besked" rows="5"></textarea>
+                    </label>
+                    <button>Indsend</button>
                 </form>
             </div>
         </div>
+
         <div class="main-column">
-            <!-- Indhold til den højre kolonne -->
-            <h1>Frivillig hos MAK</h1>
-            <br>
-            <h2>Velkommen til Mellemamerika Komitéen - Bliv en del af vores frivillige fællesskab!</h2>
-            <br>
-
-            <h3>Din indflydelse og læring hos MAK</h3>
-            <p> I MAK drives alt af frivillige, hvilket giver dig en unik mulighed for selvbestemmelse og læring gennem
-                vores projektgrupper og aktivitetsgrupper.
-                Du har direkte indflydelse på enhver udviklingsfase i et projekt eller kan deltage i kampagnearbejde.
+            <div class="intro-text">
+                <h1>Frivillig hos MAK</h1>
                 <br>
-                Ved at engagere dig i en projektgruppe hos MAK får du hands-on erfaring inden for udviklingsområdet og
-                konkrete færdigheder inden for projektarbejde. Det inkluderer at udforme ansøgninger til donorer, dialog
-                med vores partnere i Mellemamerika og opbygge solidt lokalt kendskab.
-            </p>
-            <br>
-
-            <h3> Sammenspil af projekter og fællesskab hos MAKtivister</h3>
-            <p> Vi er organiseret i forskellige baggrundsgrupper, der arbejder med diverse projekter og kampagner. Læs
-                mere om dem under vores arbejde.
+                <h2>Velkommen til Mellemamerika Komitéen - Bliv en del af vores frivillige fællesskab!</h2>
                 <br>
-                Som frivillig MAKtivist bliver du en del af et stærkt socialt fællesskab. Vi tager vores projekter
-                seriøst, men vægter også sociale arrangementer, såsom julefrokoster, fester i forbindelse med
-                forårsseminar og arbejdsweekender.
-            </p>
-            <br>
-            <h3>Tilpasning og engagement hos MAK</h3>
-            <p>I MAK er du frivillig på dine egne præmisser. Det er muligt at være en del af en gruppe, uanset hvor i
-                landet du befinder dig. Måske kan du bidrage online? Eller er du i København eller Århus et par gange om
-                året? <br> Uanset hvad, vil vi gerne høre fra dig og gøre vores bedste for at matche dig med den
-                aktivitet
-                eller projektgruppe, der passer bedst til dine behov og erfaringer!</p>
-            <br>
 
-            <h3>Spørgsmål?</h3>
-            <p>
-                Du er altid velkommen som frivillig hos Mellemamerika Komitéen. Kontakt os på <b><span
-                        style="color: #a11a17">info@makomiteen.dk</span></b> for
-                mere information!
-            </p>
-            <br>
+                <h3>Din indflydelse og læring hos MAK</h3>
+                <p> I MAK drives alt af frivillige, hvilket giver dig en unik mulighed for selvbestemmelse og læring
+                    gennem
+                    vores projektgrupper og aktivitetsgrupper.
+                    Du har direkte indflydelse på enhver udviklingsfase i et projekt eller kan deltage i
+                    kampagnearbejde.
 
-            <img src="img/IMG_9813.webp" alt="">
-            <img src="img/IMG_9770.webp" alt="">
+                    Ved at engagere dig i en projektgruppe hos MAK får du hands-on erfaring inden for udviklingsområdet
+                    og
+                    konkrete færdigheder inden for projektarbejde. Det inkluderer at udforme ansøgninger til donorer,
+                    dialog
+                    med vores partnere i Mellemamerika og opbygge solidt lokalt kendskab.
+                </p>
+                <br>
 
-            <h2> Nedenfor finder du en oversigt over vores forskellige grupper hos MAK.</h2>
-            <br>
-            <h3>Projektgrupper:</h3>
-            <ul>
-                <li> Solidaritetsrejser til Mellemamerika</li>
-                <li> Rejsekoordinering (planlægning af solidaritetsrejserne)</li>
-                <li> MAKkult</li>
-                <li> Minedrift og oprindelig befolkning i Guatemala</li>
-                <li> Kvindeligt migrant netværk i Costa Rica</li>
-                <li> REMO - kvindenetværk i Nicaragua</li>
-                <li> Aktivitetsgrupper:</li>
+                <h3> Sammenspil af projekter og fællesskab hos MAKtivister</h3>
+                <p> Vi er organiseret i forskellige baggrundsgrupper, der arbejder med diverse projekter og kampagner.
+                    Læs
+                    mere om dem under vores arbejde.
+
+                    Som frivillig MAKtivist bliver du en del af et stærkt socialt fællesskab. Vi tager vores projekter
+                    seriøst, men vægter også sociale arrangementer, såsom julefrokoster, fester i forbindelse med
+                    forårsseminar og arbejdsweekender.
+                </p>
+                <br>
+                <h3>Tilpasning og engagement hos MAK</h3>
+                <p>I MAK er du frivillig på dine egne præmisser. Det er muligt at være en del af en gruppe, uanset hvor
+                    i
+                    landet du befinder dig. Måske kan du bidrage online? Eller er du i København eller Århus et par
+                    gange om
+                    året?
+
+                    Uanset hvad, vil vi gerne høre fra dig og gøre vores bedste for at matche dig med den
+                    aktivitet
+                    eller projektgruppe, der passer bedst til dine behov og erfaringer!</p>
+                <br>
+
+                <h3>Spørgsmål?</h3>
+                <p>
+                    Du er altid velkommen som frivillig hos Mellemamerika Komitéen. Kontakt os på <b><span
+                            style="color: #a11a17">info@makomiteen.dk</span></b> for
+                    mere information!
+                </p>
+            </div>
+
+            <ul class="image">
+                <li>
+                    <img src="img/volunteer.webp" alt="">
+                </li>
+
+                <li>
+                    <img src="img/spraycan.webp" alt="">
+                </li>
+
+                <li>
+                    <img src="img/volunteer_group.webp" alt="">
+                </li>
+
             </ul>
-            <br>
-            <h3>Eventgrupper (MAK Kbh og MAK Aarhus):</h3>
-            <ul>
-                <li>Sprogcafé og folkekøkken</li>
-                <li> Latinamerika Dag</li>
-                <li>MAMA-redaktionen</li>
-                <li>Kommunikation (SoMe)</li>
-                <li> Hjemmeside</li>
-                <li>Netværk: Forum for Madsuverænitet</li>
-                <li>Netværk: Nordisk Netværk for Demokrati og Menneskerettigheder i Nicaragua</li>
-                <li>Netværk: Nicaragua-netværk i København</li>
-                <li> De fleste projektgrupper og aktivitetsgrupper hos MAK er åbne for nye frivillige løbende. </li>
-            </ul>
-            <br>
-            <h4>Du kan også finde frivillige stillinger hos MAK inde på <b><a
-                        href="https://frivilligjob.dk/">Frivilligjob.dk</a></b></h4>
-            <br>
+            <div class="text">
+                <h2> Nedenfor finder du en oversigt over vores forskellige grupper hos MAK.</h2>
+                <div class="paragraph">
+                    <div class="p1">
+                        <h3 class="h3-1">Projektgrupper:</h3>
+                        <ul class="p1">
+                            <li> Solidaritetsrejser til Mellemamerika</li>
+                            <li> Rejsekoordinering (planlægning af solidaritetsrejserne)</li>
+                            <li> MAKkult</li>
+                            <li> Minedrift og oprindelig befolkning i Guatemala</li>
+                            <li> Kvindeligt migrant netværk i Costa Rica</li>
+                            <li> REMO - kvindenetværk i Nicaragua</li>
+                        </ul>
+                    </div>
+                    <div class="p2">
+                        <h3 class="h3-2">Eventgrupper:</h3>
+                        <ul class="p2">
+                            <li>Sprogcafé og folkekøkken</li>
+                            <li> Latinamerika Dag</li>
+                            <li>MAMA-redaktionen</li>
+                            <li>Kommunikation (SoMe)</li>
+                            <li> Hjemmeside</li>
+                            <li>Netværk: Forum for Madsuverænitet</li>
+                            <li>Netværk: Nordisk Netværk for Demokrati <br> og Menneskerettigheder i Nicaragua</li>
+                            <li>Netværk: Nicaragua-netværk i København</li>
+                            <li> De fleste projektgrupper og aktivitetsgrupper <br> hos MAK er åbne for nye frivillige
+                                løbende. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Kontakt</h3>
-            <p>
-                Kontakt
-                MAKs landssekretær Helene Silva-Sørensen på <b><span
-                        style="color: #a11a17">info@makomiteen.dk</span></b>
-                eller ring på <b><span style="color: #a11a17">21521740</span></b> for at blive introduceret til den
-                relevante
-                kontaktperson.
-                Bliv en del af MAK - Gør en forskel, skab forandring!
-            </p>
+            <div class="video_container">
+                <div class="video-text">
+                    <h2>Bidrag til Sprogcaféens Succes!</h2>
+                    <br>
+                    <h3>Planlægning og Koordinering af Sprogcaféarrangementer</h3>
+                    <p>Ønsker du at være en del af planlægningen og forberedelserne til vores
+                        sprogcaféarrangementer?
+                        Hos
+                        Centralamerikakomiteen har du mulighed for at blive frivillig og hjælpe med at gøre vores
+                        sprogcaféer
+                        til en succes!
+                        Som frivillig ved vores sprogcaféer vil du være med til at skabe en atmosfære, hvor folk kan
+                        mødes,
+                        udveksle kulturelle erfaringer og forbedre deres sprogfærdigheder. Du kan hjælpe med at
+                        planlægge og
+                        koordinere arrangementet, bidrage til forberedelsen af spændende sprogaktiviteter og være
+                        med
+                        til at
+                        gøre det til en mindeværdig oplevelse for alle. </p>
+                    <br>
+                    <h3>Bidrag med Tid og Energi til Sprogcaféernes Succes</h3>
+                    <p>Vi værdsætter alle niveauer af engagement, så uanset om du har erfaring eller ej, er du
+                        velkommen
+                        til
+                        at
+                        deltage som frivillig. Det betyder også, at du selvfølgelig er mere end velkommen til at
+                        deltage
+                        i
+                        sprogcaféen som gæst, hvis du ønsker det.
+                        <br>
+                        Vi har brug for entusiastiske individer, der vil bidrage med deres tid og energi for at
+                        skabe en
+                        sjov og
+                        berigende oplevelse for vores besøgende. Bliv en del af vores frivillige team og lad os
+                        sammen
+                        gøre
+                        sprogcaféerne til en uforglemmelig begivenhed!
+                        Vi ser frem til at byde dig velkommen til vores sprogcafé, enten som en frivillig
+                        bidragsyder
+                        eller
+                        som
+                        en engageret deltager!
+                    </p>
+                    <br>
+                    <p class="pronto"><b>✨ ¡Hasta pronto! (Vi ses snart!) ✨
+                        </b></p>
 
+                    <h3>Kontakt</h3>
+                    <p>
+                        Kontakt
+                        MAKs landssekretær Helene Silva-Sørensen på <b><span
+                                style="color: #a11a17">info@makomiteen.dk</span></b>
+                        eller ring på <b><span style="color: #a11a17">21521740</span></b> for at blive introduceret til
+                        den
+                        relevante
+                        kontaktperson.
+                        Bliv en del af MAK - Gør en forskel, skab forandring!
+                    </p>
+                </div>
+                <video controls src="https://saaa.dk/kea/05_indhold/video2/kvadratiskvideo.webm"></video>
+            </div>
+            <h3 class="h3-3">Du kan også finde frivillige stillinger hos MAK inde på <b><a
+                        href="https://frivilligjob.dk/">Frivilligjob.dk</a></b></h3>
 
         </div>
     </div>
-
 </body>
 
 </html>
