@@ -18,23 +18,10 @@ main {
 
 p,
 a {
-  padding: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-}
-
-.Join_us a {
-  background-color: rgba(161, 26, 23, 1);
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  margin-top: 15px;
-}
-
+/* Styling on the h1 header for kontakt img */
 h1 {
   font-size: 5.3cqw;
   color: rgb(255, 255, 255);
@@ -42,7 +29,38 @@ h1 {
   top: 8%;
   left: 8%;
 }
-.Join_us {
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.komitee {
+  margin: 20px 0 20px 0;
+}
+
+/* Styling on red links/buttons */
+.Join a {
+  background-color: rgba(161, 26, 23, 1);
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.Join {
+  text-align: center;
+}
+
+.Join_us img {
+  height: 350px;
+  width: 80%;
+  object-fit: cover;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.Join {
   background-color: rgba(176, 201, 174, 1);
   padding: 60px 0 60px 0;
 }
@@ -55,6 +73,10 @@ form {
   width: 80%;
   height: 311px;
   gap: 5px;
+}
+
+.form_part {
+  margin-top: 20px;
 }
 
 #Besked {
@@ -103,13 +125,6 @@ button {
     text-align: center;
   }
 
-  .Join_us img {
-    height: 350px;
-    width: 80%;
-    object-fit: cover;
-    gap: 10px;
-    margin-bottom: 31px;
-  }
   .form_part {
     margin-left: 10%;
   }
