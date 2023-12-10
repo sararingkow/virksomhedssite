@@ -8,7 +8,11 @@
 h1,
 h2,
 h3,
-p {
+h4,
+p,
+li,
+li a,
+ul li {
   font-family: "Montserrat";
 }
 
@@ -105,6 +109,13 @@ p {
   font-size: 18px;
 }
 
+li,
+ul li,
+li a {
+  text-decoration: none;
+  text-align: center;
+}
+
 /* Generelle stilarter for footer */
 .site-footer {
   background-color: #24292f;
@@ -125,6 +136,7 @@ p {
 i {
   font-size: 40px;
   color: #a11a17;
+  width: 100%;
 }
 
 i:hover {
@@ -180,14 +192,14 @@ i:hover {
 }
 
 /* Social medie ikoner og responsivt layout */
-.social-icons {
+.footer-social social-icons {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-left: 70px;
 }
 
-.social-icons a {
+.footer-social social-icons a {
   margin: 0 10px;
 }
 
@@ -210,14 +222,15 @@ i:hover {
 
   i {
     font-size: 30px;
+    width: 100%;
   }
 
-  .social-icons a {
+  .footer-social social-icons a {
     margin: 0 5px;
     margin-left: 0px;
   }
 
-  .social-icons {
+  .footer-social social-icons {
     margin-left: 0px;
   }
 }
