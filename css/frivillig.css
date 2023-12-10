@@ -1,74 +1,65 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
-/*MAIN COLUMN*/
-
-.main-column {
-  flex: 2;
-  background-color: #ffffff;
-  padding: 5%;
-  text-align: justify;
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.main-column img {
-  height: 340px;
-}
-
-li {
-  list-style: none;
-}
-
-/*STICKY COLUMN*/
-.wrapper {
+.combined-column {
   display: flex;
-}
-
-h1,
-h2 {
-  text-align: center;
-  color: #000;
-}
-
-.p {
-  text-align: center;
-  padding-bottom: 7%;
 }
 
 .sticky-column {
   flex: 1;
-  background: #b0c9ae;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  background-color: #a11a17;
   box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
 }
 
 .sticky-indhold {
   position: sticky;
   top: 0px;
-  padding: 10%;
+  padding: 5%;
 }
 
-/*KONTAKT FORM*/
+.main-column {
+  flex: 3;
+  margin: 20px;
+  background-color: #fff;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #000;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+.pronto {
+  padding-bottom: 20px;
+  text-align: center;
+}
 form {
   padding: 2rem;
+  background: hsl(264 30% 96%);
   border-radius: 8px;
-  background-color: #a11a17;
-  margin-top: 20px;
-  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22), 0 5px 14px 0 rgba(0, 0, 0, 0.18);
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
+  display: grid;
+  gap: 5px;
+  margin-top: 50px;
 }
 
-.h2 {
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-}
-
-form button {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
+textarea {
+  width: 100%;
 }
 
 /*KNAP STYLING*/
@@ -81,7 +72,7 @@ button {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
-  background-color: rgb(231, 101, 101);
+  background-color: #a11a17;
   background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
@@ -94,27 +85,126 @@ button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-/*LINK STYLING*/
-/* unvisited link */
-a:link {
-  color: #a11a17;
+.video_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  gap: 30px;
 }
 
-/* mouse over link */
-a:hover {
-  color: rgb(231, 101, 101);
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px;
 }
 
-/* Mindre skærme (mobil) */
-@media (max-width: 1000px) {
-  .wrapper {
+.image li {
+  height: 45vh;
+  flex-grow: 1;
+}
+
+.image li:last-child {
+  flex-grow: 10;
+}
+
+img {
+  max-height: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.img_container {
+  display: grid;
+  place-items: center;
+}
+
+.background {
+  height: 500px;
+  grid-area: 1 / 1;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  text-align: justify;
+}
+
+.h3-1,
+.h3-2 {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.h3-3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.text {
+  padding: 30px 50px 30px;
+  background-color: #b0c9ae;
+  line-height: 1.5em;
+}
+
+.paragraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro-text {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .video_container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .background {
+    height: 300px;
+  }
+
+  .paragraph {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .combined-column {
     flex-direction: column-reverse;
   }
 
   .sticky-column,
   .main-column {
     flex: initial; /* Fjerner flex-egenskaber på mindre skærme */
-    width: 100%; /* Fylder hele bredden på mindre skærme */
     position: static; /* Fjerner sticky position på mindre skærme */
+  }
+
+  .h3-1 {
+    padding-top: 30px;
+  }
+
+  .h3-2 {
+    padding-top: 0;
+  }
+
+  .paragraph {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .main-column {
+    margin: 0px;
   }
 }
