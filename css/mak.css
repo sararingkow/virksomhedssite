@@ -6,10 +6,10 @@
   gap: 50px;
 }
 
-.image img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h1 {
+  font-size: 45px;
+  color: black;
+  text-align: center;
 }
 
 .om_image_grid {
@@ -31,14 +31,6 @@ h2 {
   text-align: center;
 }
 
-.centered {
-  font-family: "Montserrat";
-  font-size: 45px;
-  color: white;
-  text-align: center;
-  transform: translate(-1%, -225%);
-}
-
 p {
   font-size: 18px;
 }
@@ -57,8 +49,7 @@ u {
 
   .image img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
   }
 
   .image {

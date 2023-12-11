@@ -21,7 +21,7 @@ label {
 }
 
 main {
-  margin: 40px;
+  margin: 0;
 }
 
 .menu {
@@ -140,7 +140,6 @@ li a {
 i {
   font-size: 40px;
   color: #a11a17;
-  width: 100%;
 }
 
 i:hover {
@@ -149,12 +148,20 @@ i:hover {
 
 .footer-column ul {
   list-style: none;
+  padding: 0;
+}
+
+.footer-column h3 {
+  list-style: none;
+  text-decoration: none;
 }
 
 .site-footer a {
   color: #ffffff;
   font-size: 14px;
   line-height: 2;
+  text-decoration: none;
+  font-family: "Montserrat";
 }
 
 /* Footer container og kolonner */
@@ -165,6 +172,7 @@ i:hover {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .footer-column {
@@ -179,6 +187,7 @@ i:hover {
 .site-footer h3 {
   font-size: 16px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .site-footer p {
@@ -196,14 +205,14 @@ i:hover {
 }
 
 /* Social medie ikoner og responsivt layout */
-.footer-social social-icons {
+.social-icons {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-left: 70px;
 }
 
-.footer-social social-icons a {
+.social-icons a {
   margin: 0 10px;
 }
 
@@ -226,15 +235,22 @@ i:hover {
 
   i {
     font-size: 30px;
-    width: 100%;
   }
 
-  .footer-social social-icons a {
+  .social-icons a {
     margin: 0 5px;
     margin-left: 0px;
   }
 
-  .footer-social social-icons {
+  .social-icons {
     margin-left: 0px;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 5px;
+    padding: 20px 0;
   }
 }
