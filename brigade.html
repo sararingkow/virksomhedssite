@@ -6,11 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/brigade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="robots" content="noindex">
     <title>Ta' på brigade</title>
 </head>
 
 <body>
+    <header>
+        <div class="menu">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </a>
+            <div class="navbar">
+                <a href="mak.html">Om MAK</a>
+                <a href="nyheder.html">Nyheder</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Vær med
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="frivillig.html">Bliv frivillig</a>
+                        <a href="brigade.html">Ta' på brigade!</a>
+                    </div>
+                </div>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+    </header>
     <main>
         <div class="forside_brigade">
             <div class="text_corner">Ta' på brigade!</div>
@@ -42,7 +64,7 @@
             </div>
             <div class="col_4-4">
                 <h2>
-                    Hvad er briagde?
+                    Hvad er brigade?
                 </h2>
                 <h3>Brigade og solidaritetsarbejde som rejseform</h3>
                 <p>
@@ -83,7 +105,7 @@
                     Tilmelding
                 </h2>
                 <h3> Hvorfor vælge at afsted?</h3>
-                <p>
+                <ul>
                     <li>Gør en forskel gennem frivilligt arbejde.</li>
                     <li>Planlæg dit ophold selv, herunder formål, projekt og aktiviteter.</li>
                     <li>Forbedr dit spansk.</li>
@@ -91,18 +113,92 @@
                     <li>Oplev kulturel udveksling mellem danskere og mellemamerikanere.</li>
                     <li>En oplevelse for livet med erindringer og venskaber, der varer evigt.</li>
                     <li>Udvis solidaritet med lokalbefolkningen i deres kamp for selvbestemmelse, demokrati og
-                        menneskerettigheder.</li><br>
-                </p>
+                        menneskerettigheder.</li>
+                </ul>
+                <br>
                 <p>
                     Hvis du allerede ved at du er interesseret, så klik på knappen nedenfor og så tager vi kontakt til
                     dig
                     snarest!<br>
-                    Vi glæder os til at høre fra dig!
+                    <br>Vi glæder os til at høre fra dig!
                 </p>
-                <button type="button">Join brigade gruppen!</button>
+                <div class="knap">
+                    <button type="button">Join brigade gruppen!</button>
+                </div>
             </div>
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
     </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="logo-column">
+                <a href="index.html">
+                    <img class="logo-footer" src="img/logo.png" alt="Dit Logo">
+                </a>
+            </div>
+
+
+            <div class="footer-social social-icons">
+                <a href="https://www.facebook.com/Mellemamerikakomiteen"><i class="fa-brands fa-square-facebook"></i>
+                    <img src="img/facebook_icon.webp" alt="facebook_icon">
+                </a>
+
+
+                <a href="https://www.instagram.com/mellemamerika_komiteen/"><i
+                        class="fa-brands fa-square-instagram"></i>
+                    <img src="img/instagram_icon.webp" alt="insta icon">
+                </a>
+
+
+                <a href="https://www.linkedin.com/company/mellemamerika-komiteen/about/"><i
+                        class="fa-brands fa-linkedin"></i>
+                    <img src="img/linkedin_icon.webp" alt="linked in">
+                </a>
+            </div>
+            <div class="footer-column">
+                <h3>Om MAK</h3>
+                <ul>
+                    <li>
+                        <a href="mak.html">Om MAK</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Nyheder</h3>
+                <ul>
+                    <li>
+                        <a href="nyheder.html">Nyheder</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Vær med</h3>
+                <ul>
+                    <li>
+                        <a href="frivillig.html">Bliv frivillig</a>
+                    </li>
+                    <li>
+                        <a href="brigade.html">Tag på brigade</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Kontakt</h3>
+                <ul>
+                    <li>
+                        <a href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom_text">
+
+            <p>Mellemamerika Komiteen | 2020info@makomiteen.dk | brigade@makomiteen.dk | aarhus@makomiteen.dk</p>
+            <p> <a href="https://www.freepik.com"> icons designed by Harryarts - Freepik.com</a> </p>
+        </div>
+    </footer>
+    <script src="js/button.js"></script>
 </body>
 
 </html>
