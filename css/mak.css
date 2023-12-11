@@ -3,13 +3,14 @@
   grid-template-columns: 1fr 1fr;
   margin: 40px;
   padding: 10px;
-  gap: 50px;
+  gap: 60px;
 }
 
-.image img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h1 {
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  padding: 60px;
 }
 
 .om_image_grid {
@@ -31,16 +32,6 @@ h2 {
   text-align: center;
 }
 
-.centered {
-  font-family: "Montserrat";
-  font-size: 45px;
-  color: white;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-1%, -220%);
-}
-
 p {
   font-size: 18px;
 }
@@ -57,31 +48,9 @@ u {
     gap: 25px;
   }
 
-  .image img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .image {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-  }
-
   .col_2-4 img {
     width: 50%;
     height: 50%;
-  }
-
-  .centered {
-    font-family: "Montserrat";
-    font-size: 35px;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-1%, -280%);
   }
 
   p {
