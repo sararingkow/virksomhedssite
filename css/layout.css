@@ -16,6 +16,7 @@ ul li,
 ul,
 .p1,
 .p2,
+button,
 label {
   font-family: "Montserrat";
 }
@@ -24,6 +25,7 @@ main {
   margin: 0;
 }
 
+/*
 .menu {
   overflow: hidden;
   display: flex;
@@ -109,6 +111,8 @@ nav {
   background-color: #ffffff;
 }
 
+
+/*p & list-tags */
 p {
   font-size: 18px;
 }
@@ -122,8 +126,8 @@ li a {
 /* Generelle stilarter for footer */
 .site-footer {
   background-color: #24292f;
-  color: #ffffff;
   padding: 0;
+  color: #c3c3c3;
 }
 
 .site-footer .bottom_text {
@@ -156,7 +160,7 @@ i:hover {
 }
 
 .site-footer a {
-  color: #ffffff;
+  color: #c3c3c3;
   font-size: 14px;
   line-height: 2;
   text-decoration: none;
@@ -187,6 +191,7 @@ i:hover {
   font-size: 16px;
   margin-bottom: 10px;
   text-align: center;
+  color: white;
 }
 
 .site-footer p {
@@ -200,7 +205,7 @@ i:hover {
 }
 
 .site-footer a:hover {
-  color: #afafaf;
+  color: #ad0000;
 }
 
 /* Social medie ikoner og responsivt layout */
@@ -218,9 +223,8 @@ i:hover {
 /* Responsivitet for mindre skærmstørrelser */
 @media (max-width: 800px) {
   .site-footer h3,
-  a,
-  p {
-    font-size: 12px;
+  a {
+    font-size: 15px;
     margin-bottom: 10px;
   }
 
@@ -248,7 +252,6 @@ i:hover {
   .footer-social {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
     gap: 5px;
     padding: 20px 0;
   }
