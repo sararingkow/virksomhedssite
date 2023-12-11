@@ -39,13 +39,11 @@ img {
 
 .main-column {
   flex: 3;
-  text-align: justify;
-  background-color: #fff;
+  background-color: rgb(244, 242, 248);
 }
 
 h1,
 h2 {
-  text-align: center;
   color: #000;
   padding-bottom: 20px;
 }
@@ -56,8 +54,8 @@ h3 {
 
 .pronto {
   padding-bottom: 20px;
-  text-align: center;
 }
+
 form {
   padding: 2rem;
   background: hsl(264 30% 96%);
@@ -75,7 +73,7 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 30px;
-  background-color: #fff;
+  background-color: rgb(244, 242, 248);
   gap: 30px;
 }
 
@@ -107,8 +105,11 @@ img {
 }
 
 .background {
-  height: 500px;
-  grid-area: 1 / 1;
+  background-color: #a11a17;
+}
+
+.grupper_h2 {
+  text-align: center;
 }
 
 video {
@@ -122,9 +123,6 @@ video {
   padding-top: 30px;
   padding-left: 40px;
 }
-.kontakt {
-  text-align: center;
-}
 
 .h3-3 {
   text-align: center;
@@ -133,11 +131,12 @@ video {
 
 .text {
   padding: 30px 50px 30px;
-  background-color: #b0c9ae;
   line-height: 1.5em;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
-.video-text h3 {
+.kontakt {
   text-align: center;
 }
 
@@ -150,13 +149,13 @@ video {
 
 .intro-text {
   display: grid;
-  place-items: center;
   padding: 30px;
+  border-bottom: 2px solid #000;
 }
 
 .bund {
-  background-color: #b0c9ae;
   padding: 30px;
+  border-top: 2px solid #000;
 }
 
 .p1,
@@ -281,10 +280,6 @@ video {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .background {
-    height: 300px;
-  }
-
   .paragraph {
     display: grid;
     grid-template-columns: 1fr;
