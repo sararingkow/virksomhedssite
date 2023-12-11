@@ -15,7 +15,8 @@ li a,
 ul li,
 ul,
 .p1,
-.p2 {
+.p2,
+label {
   font-family: "Montserrat";
 }
 
