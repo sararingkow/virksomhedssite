@@ -123,7 +123,7 @@ li a {
 /* Generelle stilarter for footer */
 .site-footer {
   background-color: #24292f;
-  color: #ffffff;
+  color: #c3c3c3;
   padding: 0;
 }
 
@@ -157,7 +157,7 @@ i:hover {
 }
 
 .site-footer a {
-  color: #ffffff;
+  color: #c3c3c3;
   font-size: 14px;
   line-height: 2;
   text-decoration: none;
@@ -201,7 +201,7 @@ i:hover {
 }
 
 .site-footer a:hover {
-  color: #afafaf;
+  color: #ad0000;
 }
 
 /* Social medie ikoner og responsivt layout */
