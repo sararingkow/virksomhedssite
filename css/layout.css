@@ -13,7 +13,9 @@ p,
 li,
 li a,
 ul li,
-ul {
+ul,
+.p1,
+.p2 {
   font-family: "Montserrat";
 }
 
