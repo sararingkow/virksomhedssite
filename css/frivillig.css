@@ -93,7 +93,7 @@ button:active {
 .video_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
+  padding: 30px;
   background-color: #fff;
   gap: 30px;
 }
@@ -102,7 +102,7 @@ button:active {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 20px;
+  padding: 30px;
 }
 
 .image li {
@@ -170,7 +170,7 @@ video {
 .intro-text {
   display: grid;
   place-items: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .bund {
@@ -223,5 +223,14 @@ video {
 
   .main-column {
     margin: 0px;
+  }
+
+  p,
+  ul {
+    text-align: left;
+  }
+
+  h3 {
+    text-align: center;
   }
 }
