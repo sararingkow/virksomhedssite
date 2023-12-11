@@ -1,6 +1,46 @@
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  gap: 5px;
+  padding: 20px 0;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.site-footer h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 img {
   width: 100%;
   height: auto;
+}
+
+h3,
+a {
+  color: rgba(161, 26, 23, 1);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 0 60px 0 60px;
 }
 
 form {
@@ -8,9 +48,15 @@ form {
   background: hsl(264 30% 96%);
   border-radius: 8px;
   display: grid;
-  width: 80%;
-  height: 311px;
+  width: 90%;
+  height: 315px;
   gap: 5px;
+  margin-top: 20px;
+  align-content: end;
+}
+
+.form_part {
+  margin: 30px;
 }
 
 #Besked {
@@ -21,4 +67,54 @@ button {
   width: 60px;
   background-color: rgba(161, 26, 23, 1);
   color: white;
+}
+
+.col_1-1 {
+  margin: 20px 0 20px 0;
+}
+
+.grid_1-2 {
+  background-color: rgba(176, 201, 174, 1);
+  padding: 5px 0px 20px 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .grid_nyheder_forside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 40px 10% 40px 10%;
+  }
+
+  .grid_nyheder_forside img {
+    object-fit: cover;
+    min-width: 100%;
+    height: 300px;
+  }
+
+  main {
+    margin: 0 60px 0 60px;
+  }
+
+  .link_nyhed {
+    margin: 40px 0 40px 10%;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0 30px 0;
+    align-items: center;
+  }
+
+  .grid_1-2 img {
+    height: 315px;
+    width: 90%;
+    object-fit: cover;
+    margin: auto auto 0 auto;
+  }
+
+  .form_part {
+    margin: auto 0 0 30px;
+  }
 }

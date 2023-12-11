@@ -12,7 +12,11 @@ h4,
 p,
 li,
 li a,
-ul li {
+ul li,
+ul,
+.p1,
+.p2,
+label {
   font-family: "Montserrat";
 }
 
