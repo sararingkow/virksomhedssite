@@ -12,7 +12,8 @@ h4,
 p,
 li,
 li a,
-ul li {
+ul li,
+ul {
   font-family: "Montserrat";
 }
 
