@@ -6,6 +6,10 @@
   gap: 60px;
 }
 
+main {
+  background-color: #f8f8f8;
+}
+
 h1 {
   font-size: 45px;
   color: black;
@@ -55,6 +59,10 @@ u {
   .col_2-4 img {
     width: 50%;
     height: 50%;
+  }
+
+  main {
+    background-color: #f8f8f8;
   }
 
   p {
