@@ -25,6 +25,7 @@ main {
   margin: 0;
 }
 
+/*
 .menu {
   overflow: hidden;
   display: flex;
@@ -110,6 +111,8 @@ nav {
   background-color: #ffffff;
 }
 
+
+/*Andet */
 p {
   font-size: 18px;
 }
@@ -124,6 +127,7 @@ li a {
 .site-footer {
   background-color: #24292f;
   padding: 0;
+  color: #c3c3c3;
 }
 
 .site-footer .bottom_text {
