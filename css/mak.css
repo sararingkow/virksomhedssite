@@ -17,10 +17,14 @@ h1 {
   grid-column: 2/-1;
 }
 
+img {
+  width: 100%;
+}
+
 .om_image_grid img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  object-fit: cover;
+  min-width: 100%;
+  height: 300px;
 }
 
 h2 {
@@ -54,7 +58,7 @@ u {
   }
 
   p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   u {
