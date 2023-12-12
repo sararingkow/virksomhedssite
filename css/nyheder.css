@@ -19,6 +19,7 @@
 
   main {
     background-color: #f8f8f8;
+    margin: 0%;
   }
 
   img {
@@ -38,5 +39,27 @@
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    background-color: #f8f8f8;
+    margin: 0%;
+  }
+  .menu {
+    border: 7px solid #a11a17;
+  }
+
+  .navbar a {
+    margin-bottom: 0px;
+  }
+
+  .navbar {
+    color: white;
+  }
+
+  .logo {
+    display: none;
   }
 }
