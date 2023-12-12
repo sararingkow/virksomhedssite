@@ -1,9 +1,9 @@
-// Hent DOM-elementer
-const menuIcon = document.getElementById("menu-icon");
-const navbar = document.querySelector(".navbar");
+const navToggleBtn = document.getElementById("nav_toggle_btn");
+const header = document.getElementById("header");
 
-// Tilføj klikhåndterer til menu-ikonet
-menuIcon.addEventListener("click", () => {
-  // Skift visning af navbar ved at tilføje/fjerne CSS-klasse
-  navbar.classList.toggle("show-navbar");
-});
+navToggleBtn.addEventListener("click", toggleNavBar);
+
+function toggleNavBar() {
+  navToggleBtn.classList.toggle("active");
+  header.classList.toggle("active");
+}
