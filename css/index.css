@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   overflow: hidden;
   background-color: white;
   display: flex;
@@ -21,17 +21,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center; /* Centrerer elementer vertikalt */
-}
+/* }
 
 .menu img {
   max-width: 110px;
-  margin: 15px; /* Justerer højremargin til at skabe plads mellem logoet og burgermenuen */
+  margin: 15px;
 }
 
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
-  display: none; /* Skjul menu-ikonet på større skærme */
+  display: none; 
 }
 
 .dropdown .dropbtn {
@@ -76,57 +76,58 @@
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #a11a17; /* Set a background color */
-  color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #a11a17; 
+  color: black; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px;
+  font-size: 18px; 
   font-family: "Montserrat";
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555; 
 }
 
-/* Tilføjet styling for burgermenuen */
+
 .menu {
   border-bottom: 2px solid black;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Centrerer elementer vertikalt */
+  align-items: center; 
 }
 
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
-  display: none; /* Skjul menu-ikonet på større skærme */
+  display: none; 
 }
 
 .video {
   position: relative;
-  z-index: -1; /* Sæt et negativt z-indeks for at placere videoen bag andre elementer */
-}
+  z-index: -1;
+} */
+*/
 /* Responsivt design for burgermenu */
-@media (max-width: 899px) {
+/* @media (max-width: 899px) {
   .menu img {
     max-width: 75px;
     margin: 10px;
   }
 
   .menu {
-    flex-direction: row-reverse; /* Ændrer retningen af flex-container */
+    flex-direction: row-reverse; /* Ændrer retningen af flex-container 
   }
 
   .menu-icon {
-    order: -1; /* Flytter menu-ikonet til venstre */
+    order: -1; 
     display: block;
     margin-right: 50px;
   }
@@ -148,14 +149,18 @@
   .navbar a {
     padding: 14px 16px;
     border-radius: 0;
-    text-align: right; /* Juster tekst til højre */
+    text-align: right; /* Juster tekst til højre 
   }
 
-  /* Vis navbar ved at tilføje show-navbar klasse */
+  /* Vis navbar ved at tilføje show-navbar klasse 
   .show-navbar {
     display: flex;
   }
-}
+} 
+ */
+
+
+ 
 
 .footer-container {
   max-width: 1400px;
