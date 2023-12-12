@@ -88,6 +88,12 @@ h1 {
   margin-bottom: 30px;
 }
 
+.kontakt_img img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .Join {
   background-color: rgba(176, 201, 174, 1);
   padding: 60px 0 60px 0;
