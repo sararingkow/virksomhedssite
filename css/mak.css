@@ -54,3 +54,60 @@ p {
 u {
   color: #ad0000;
 }
+
+@media only screen and (max-width: 900px) {
+  .grid_2 {
+    grid-template-columns: 1fr;
+    margin: 40px;
+    padding: 10px;
+    gap: 25px;
+  }
+
+  main {
+    background-color: #f8f8f8;
+  }
+
+  h1 {
+    font-size: 14.3cqw;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 37%;
+    left: 14%;
+  }
+
+  .om_image_grid {
+    grid-column: 2/-1;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .om_image_grid img {
+    object-fit: cover;
+    min-width: 100%;
+    height: 300px;
+  }
+
+  .centered img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h2 {
+    color: white;
+    border: solid;
+    border-color: #24292f;
+    border-width: 10px;
+    background-color: #24292f;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  u {
+    color: #ad0000;
+  }
+}
