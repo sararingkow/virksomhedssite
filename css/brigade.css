@@ -112,9 +112,25 @@ h3 {
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 700px) {
   main {
     margin: 0%;
+  }
+
+  .menu {
+    border: 7px solid #a11a17;
+  }
+
+  .navbar a {
+    margin-bottom: 0px;
+  }
+
+  .navbar {
+    color: white;
+  }
+
+  .logo {
+    display: none;
   }
 }
 
@@ -150,4 +166,5 @@ h3 {
   border-radius: 10px;
   background-color: #a11a17;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
