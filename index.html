@@ -9,51 +9,20 @@
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/layout.css">
-    <script src="https://kit.fontawesome.com/e05f21b32e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/burgermenu.js" defer></script>
 </head>
 
 <body>
-    <i class="fas fa-bars btn nav-toggle-btn" id="nav_toggle_btn"></i>
-
-    <header class="header" id="header">
-        <nav class="main-nav" id="main_nav">
-            <div class="container nav-container">
-                <img src="img/logo.png" class="logo" alt="logo">
-                <div class="container right-container">
-                    <ul>
-                        <li>
-                            <a href="mak.html">Om MAK</a>
-                        </li>
-                        <li>
-                            <a href="nyheder.html">Nyheder</a>
-                        </li>
-                        <li>
-                            <a href="kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                    <div class="dropdown">
-                        <button class="dropbtn">Vær med
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="frivillig.html">Bliv frivillig</a>
-                            <a href="brigade.html">Ta' på brigade!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
-
-    <!-- 
-
-         <div class="navbar">
+    <header>
+        <div class="menu">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </a>
+            <div class="navbar">
                 <a href="mak.html">Om MAK</a>
                 <a href="nyheder.html">Nyheder</a>
-                <div class="dropdown right-align">
+                <div class="dropdown">
                     <button class="dropbtn">Vær med
                         <i class="fa fa-caret-down"></i>
                     </button>
@@ -64,10 +33,11 @@
                 </div>
                 <a href="kontakt.html">Kontakt</a>
             </div>
-     -->
-
+        </div>
+    </header>
     <main>
         <div class="video">
+            <div class="video_text">Mellemamerika Komiteen</div>
             <video autoplay loop muted>
                 <source
                     src="https://saaa.dk/kea/05_indhold/02_redesign/virksomhedssite.webm?fbclid=IwAR1Y_NU8o1qLgzX7seu8mAsT5y50NQcidZAj2b42jl71JUTzgPsX1nCY3z8">
@@ -123,7 +93,7 @@
 
                     <label for="Besked">Besked</label>
                     <textarea name="Besked" rows="5"></textarea>
-                    <button>Indsend</button>
+                    <button id="kontakt_knap">Indsend</button>
                 </form>
             </div>
 
