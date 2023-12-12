@@ -13,6 +13,8 @@ img {
   display: flex;
 }
 
+/*STICKY COLUMN*/
+
 .sticky-column {
   flex: 1;
   position: sticky;
@@ -33,15 +35,15 @@ img {
   text-align: center;
 }
 
+/*MAIN COLUMN*/
+
 .main-column {
   flex: 3;
-  text-align: justify;
-  background-color: #fff;
+  background-color: rgb(244, 242, 248);
 }
 
 h1,
 h2 {
-  text-align: center;
   color: #000;
   padding-bottom: 20px;
 }
@@ -52,8 +54,8 @@ h3 {
 
 .pronto {
   padding-bottom: 20px;
-  text-align: center;
 }
+
 form {
   padding: 2rem;
   background: hsl(264 30% 96%);
@@ -67,34 +69,11 @@ textarea {
   width: 100%;
 }
 
-/*KNAP STYLING*/
-button {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 60px;
-  font-size: 1rem;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: #a11a17;
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-button:hover {
-  background-color: rgb(127, 0, 0);
-}
-
-button:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-
 .video_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
-  background-color: #fff;
+  padding: 30px;
+  background-color: rgb(244, 242, 248);
   gap: 30px;
 }
 
@@ -102,7 +81,7 @@ button:active {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 20px;
+  padding: 30px;
 }
 
 .image li {
@@ -126,8 +105,11 @@ img {
 }
 
 .background {
-  height: 500px;
-  grid-area: 1 / 1;
+  background-color: #a11a17;
+}
+
+.grupper_h2 {
+  text-align: center;
 }
 
 video {
@@ -141,9 +123,6 @@ video {
   padding-top: 30px;
   padding-left: 40px;
 }
-.kontakt {
-  text-align: center;
-}
 
 .h3-3 {
   text-align: center;
@@ -152,11 +131,12 @@ video {
 
 .text {
   padding: 30px 50px 30px;
-  background-color: #b0c9ae;
   line-height: 1.5em;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
-.video-text h3 {
+.kontakt {
   text-align: center;
 }
 
@@ -169,13 +149,13 @@ video {
 
 .intro-text {
   display: grid;
-  place-items: center;
-  padding: 20px;
+  padding: 30px;
+  border-bottom: 2px solid #000;
 }
 
 .bund {
-  background-color: #b0c9ae;
   padding: 30px;
+  border-top: 2px solid #000;
 }
 
 .p1,
@@ -183,15 +163,123 @@ video {
   font-size: 18px;
 }
 
+/*KNAP STYLING FOR FORM*/
+.form_btn {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 60px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #a11a17;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form_btn:hover {
+  background-color: rgb(127, 0, 0);
+}
+
+.form_btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* NAVIGATIONSBAR */
+
+.menu {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 130px;
+  margin-left: 30%;
+  margin-bottom: 5%;
+}
+
+.navbar {
+  display: flex;
+  font-family: "Montserrat";
+  justify-content: center; /* Centrerer indholdet vandret */
+  align-items: center; /* Centrerer indholdet lodret */
+  margin-right: 2%;
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+  color: #a11a17;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* CSS for dropdown-menuen */
+
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  float: right; /* Justerer placeringen til højre */
+}
+
+/* Styling for "Vær med" knappen */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 12px;
+  color: #a11a17;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Styling for dropdown-menuens links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #a11a17;
+  color: white;
+  padding: 14px 16px;
+}
+
+.fa {
+  color: #000;
+}
+
 @media screen and (max-width: 1000px) {
   .video_container {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .background {
-    height: 300px;
-  }
-
   .paragraph {
     display: grid;
     grid-template-columns: 1fr;
@@ -223,5 +311,22 @@ video {
 
   .main-column {
     margin: 0px;
+  }
+
+  p,
+  ul {
+    text-align: left;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  /*NAVIGATIONSBAR*/
+
+  .dropdown .dropbtn,
+  .navbar a {
+    font-weight: 600;
+    font-size: 16px;
   }
 }
