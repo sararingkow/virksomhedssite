@@ -42,6 +42,7 @@ img {
 .komiteer,
 .form_part {
   margin: 50px;
+  background-color: #f8f8f8;
 }
 
 /* p,
@@ -56,6 +57,7 @@ h1 {
   position: absolute;
   top: 30%;
   left: 5%;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
 
 .navigation {
@@ -130,12 +132,26 @@ form {
   border-radius: 5px;
 } */
 
+#kontakt_knap {
+  text-decoration: none;
+  border: 0;
+  line-height: 2.5;
+  padding: 10px 60px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #a11a17;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
 .navigation {
   display: flex;
   flex-direction: row;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .komiteer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -157,6 +173,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     align-items: end;
+    background-color: #f8f8f8;
   }
 
   .formular_grid img {
