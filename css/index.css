@@ -1,3 +1,162 @@
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  padding: 2%;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.menu {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centrerer elementer vertikalt */
+}
+
+.menu img {
+  max-width: 110px;
+  margin: 15px; /* Justerer højremargin til at skabe plads mellem logoet og burgermenuen */
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Skjul menu-ikonet på større skærme */
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  color: black;
+  padding: 14px 16px;
+  margin: 0;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #a11a17;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #c3c3c3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #a11a17; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-family: "Montserrat";
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* Tilføjet styling for burgermenuen */
+.menu {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centrerer elementer vertikalt */
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none; /* Skjul menu-ikonet på større skærme */
+}
+
+.video {
+  position: relative;
+  z-index: -1; /* Sæt et negativt z-indeks for at placere videoen bag andre elementer */
+}
+/* Responsivt design for burgermenu */
+@media (max-width: 899px) {
+  .menu img {
+    max-width: 75px;
+    margin: 10px;
+  }
+
+  .menu {
+    flex-direction: row-reverse; /* Ændrer retningen af flex-container */
+  }
+
+  .menu-icon {
+    order: -1; /* Flytter menu-ikonet til venstre */
+    display: block;
+    margin-right: 50px;
+  }
+
+  .navbar {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 99px;
+    right: 0px;
+    width: 35%;
+    height: 65%;
+    margin: 5px;
+    text-align: right;
+  }
+
+  .navbar a {
+    padding: 14px 16px;
+    border-radius: 0;
+    text-align: right; /* Juster tekst til højre */
+  }
+
+  /* Vis navbar ved at tilføje show-navbar klasse */
+  .show-navbar {
+    display: flex;
+  }
+}
+
 .footer-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -45,6 +204,10 @@ main {
   margin: 0 60px 0 60px;
 }
 
+.link_nyhed {
+  margin-left: 15px;
+}
+
 form {
   padding: 2rem;
   background: hsl(264 30% 96%);
@@ -74,7 +237,7 @@ button {
 }
 
 .col_1-1 {
-  margin: 20px 0 20px 0;
+  margin: 20px 15px 20px 15px;
 }
 
 .grid_1-2 {
@@ -82,7 +245,7 @@ button {
   padding: 5px 0px 20px 0;
 }
 
-@media only screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
   .grid_nyheder_forside {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -101,7 +264,7 @@ button {
   }
 
   .link_nyhed {
-    margin: 40px 0 40px 10%;
+    margin: 40px 15px 40px 11%;
   }
 
   .grid_1-2 {
@@ -121,7 +284,4 @@ button {
   .form_part {
     margin: auto 0 0 30px;
   }
-
-  /* .social-icons {
-  } */
 }
