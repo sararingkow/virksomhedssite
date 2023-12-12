@@ -14,7 +14,7 @@
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 12px;
-}
+} 
 
 .menu {
   border-bottom: 2px solid black;
@@ -201,7 +201,6 @@ video {
 h3,
 a {
   color: rgba(161, 26, 23, 1);
-  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -231,14 +230,6 @@ form {
 
 #Besked {
   height: 100px;
-}
-
-button {
-  width: 76px;
-  background-color: rgba(161, 26, 23, 1);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
 }
 
 .col_1-1 {
