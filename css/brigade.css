@@ -18,12 +18,18 @@ img {
   font-weight: 600;
 }
 
+.forside_brigade img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .text_corner {
   position: absolute;
-  top: 8px;
-  right: 16px;
-  margin-top: 2%;
-  margin-right: 2%;
+  top: 15%;
+  right: 5%;
+  font-size: 5.3cqw;
+  color: white;
 }
 
 .col_4-2,
