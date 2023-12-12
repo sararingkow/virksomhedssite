@@ -32,7 +32,6 @@ img {
 
 .sticky-indhold p {
   color: #000;
-  text-align: center;
 }
 
 /*MAIN COLUMN*/
@@ -105,7 +104,7 @@ img {
 }
 
 .background {
-  background-color: #a11a17;
+  background-color: #24292f;
 }
 
 .grupper_h2 {
@@ -121,7 +120,6 @@ video {
 .h3-1,
 .h3-2 {
   padding-top: 30px;
-  padding-left: 40px;
 }
 
 .h3-3 {
@@ -130,10 +128,9 @@ video {
 }
 
 .text {
-  padding: 30px 50px 30px;
+  padding: 30px 30px 30px;
   line-height: 1.5em;
-  border-top: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-bottom: 5px solid #24292f;
 }
 
 .kontakt {
@@ -145,22 +142,27 @@ video {
   grid-template-columns: 1fr 1fr;
   padding-left: 20px;
   padding-right: 20px;
+  gap: 50px;
 }
 
 .intro-text {
   display: grid;
   padding: 30px;
-  border-bottom: 2px solid #000;
 }
 
 .bund {
   padding: 30px;
-  border-top: 2px solid #000;
+  border-top: 5px solid #24292f;
 }
 
 .p1,
 .p2 {
   font-size: 18px;
+}
+
+ul.p1,
+ul.p2 {
+  padding: 0px 0px 0px 30px;
 }
 
 /*KNAP STYLING FOR FORM*/
