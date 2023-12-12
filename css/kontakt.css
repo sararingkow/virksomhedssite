@@ -68,14 +68,14 @@ h1 {
 }
 
 /* Styling on red links/buttons */
-.Join a {
+/* .Join a {
   background-color: rgba(161, 26, 23, 1);
   padding: 10px;
   text-decoration: none;
   color: white;
   border-radius: 5px;
   margin-top: 15px;
-}
+} */
 .Join {
   text-align: center;
 }
@@ -116,13 +116,13 @@ form {
   height: 100px;
 }
 
-button {
+/* button {
   width: 76px;
   background-color: rgba(161, 26, 23, 1);
   color: white;
   padding: 10px;
   border-radius: 5px;
-}
+} */
 
 .navigation {
   display: flex;
