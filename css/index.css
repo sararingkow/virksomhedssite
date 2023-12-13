@@ -1,32 +1,3 @@
-.footer-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.footer-social {
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  gap: 5px;
-  padding: 20px 0;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.site-footer h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 img,
 video {
   width: 100%;
@@ -60,10 +31,14 @@ video {
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
-h3,
+.col_1-1 h2,
 a {
   color: rgba(161, 26, 23, 1);
   text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+ {
 }
 
 main {
@@ -91,9 +66,9 @@ form {
   align-content: end;
 }
 
-.form_part {
-  margin: 30px;
-}
+/* .form_part {
+  margin: 40px;
+} */
 
 #Besked {
   height: 100px;
@@ -168,6 +143,6 @@ form {
   }
 
   .form_part {
-    margin: auto 0 0 30px;
+    margin: auto 0 0 40px;
   }
 }
