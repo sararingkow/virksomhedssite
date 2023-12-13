@@ -11,7 +11,7 @@ main {
 }
 
 h1 {
-  transform: translate(2%, -20%);
+  transform: translate(2%, 80%);
   text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
   font-size: 5.3cqw;
   color: rgb(255, 255, 255);
