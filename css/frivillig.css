@@ -20,7 +20,7 @@ img {
   position: sticky;
   top: 0;
   padding: 30px;
-  background-color: #b0c9ae;
+  background-color: var(--green); /*Variabel farve fra layout.css*/
   box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
 }
 
