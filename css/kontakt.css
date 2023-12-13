@@ -66,7 +66,16 @@ h1 {
 }
 
 .komitee {
-  margin: 20px 0 20px 0;
+  margin: 40px 0 40px 0;
+}
+.komitee p,
+.form_part p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.komitee a {
+  font-size: 18px;
 }
 
 /* Styling on red links/buttons */
@@ -124,15 +133,7 @@ form {
   height: 100px;
 }
 
-/* button {
-  width: 76px;
-  background-color: rgba(161, 26, 23, 1);
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-} */
-
-#kontakt_knap {
+.kontakt_knap {
   text-decoration: none;
   border: 0;
   line-height: 2.5;
@@ -144,6 +145,10 @@ form {
   border-radius: 10px;
   background-color: #a11a17;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.form_part .kontakt_knap {
+  padding: 0 60px;
 }
 
 .navigation {
