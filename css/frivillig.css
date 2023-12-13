@@ -130,7 +130,7 @@ video {
 .text {
   padding: 30px 30px 30px;
   line-height: 1.5em;
-  border-bottom: 5px solid #24292f;
+  border-bottom: 2px solid #24292f;
 }
 
 .kontakt {
@@ -152,7 +152,7 @@ video {
 
 .bund {
   padding: 30px;
-  border-top: 5px solid #24292f;
+  border-top: 2px solid #24292f;
 }
 
 .p1,
@@ -287,6 +287,10 @@ ul.p2 {
     gap: 50px;
   }
 
+  .bund {
+    border-bottom: 5px solid #24292f;
+  }
+
   .combined-column {
     flex-direction: column-reverse;
   }
@@ -312,11 +316,6 @@ ul.p2 {
 
   .main-column {
     margin: 0px;
-  }
-
-  p,
-  ul {
-    text-align: left;
   }
 
   /*NAVIGATIONSBAR*/
