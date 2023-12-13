@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  --green: #b0c9ae;
+}
+
 h1,
 h2,
 h3,
