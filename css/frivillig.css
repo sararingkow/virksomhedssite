@@ -107,10 +107,6 @@ img {
   background-color: #24292f;
 }
 
-.grupper_h2 {
-  text-align: center;
-}
-
 video {
   width: 100%;
   height: auto;
@@ -179,6 +175,7 @@ ul.p2 {
 
 .form_btn:hover {
   background-color: rgb(127, 0, 0);
+  cursor: pointer;
 }
 
 .form_btn:active {
