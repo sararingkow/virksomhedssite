@@ -39,7 +39,7 @@ h1 {
 }
 
 .komitee {
-  margin: 20px 0 40px 0;
+  margin: 20px 20px 40px 20px;
 }
 .komitee p,
 .form_part p {
@@ -100,7 +100,7 @@ form {
 }
 
 .form_part {
-  margin: 50px;
+  margin: 30px;
 }
 
 #Besked {
@@ -139,7 +139,6 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 17%;
-    /* padding-right: 17%; */
     gap: 5%;
   }
 
