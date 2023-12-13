@@ -64,7 +64,7 @@ li {
 
 .grid_4-1,
 .grid_4-3 {
-  background-color: rgba(176, 201, 174, 1);
+  background-color: var(--green);
 }
 
 .grid_4-2,
@@ -89,18 +89,6 @@ h3 {
   font-size: 1.4rem;
   text-align: center;
 }
-
-/* button {
-  background-color: #a11a17;
-  color: white;
-  cursor: pointer;
-  margin: 4px 2px;
-  padding: 10px 20px;
-  border-radius: 12px;
-  font-size: 1rem;
-  margin-top: 5%;
-  justify-content: center;
-} */
 
 @media (min-width: 1000px) {
   .grid_4-1,

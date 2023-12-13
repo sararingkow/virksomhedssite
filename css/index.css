@@ -16,6 +16,11 @@ img {
   left: 15%;
 }
 
+.video {
+  width: 100%;
+  height: auto;
+}
+
 .kontakt_knap {
   text-decoration: none;
   border: 0;
@@ -52,6 +57,12 @@ main {
 
 .link_nyhed a {
   font-size: 18px;
+  color: #a11a17;
+}
+
+.link_nyhed p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 form {
@@ -64,6 +75,11 @@ form {
   gap: 5px;
   margin-top: 20px;
   align-content: end;
+  margin: 20px;
+}
+
+.form_part2 h2 {
+  margin: 20px;
 }
 
 #Besked {
@@ -84,7 +100,7 @@ form {
 }
 
 .grid_1-2 {
-  background-color: rgba(176, 201, 174, 1);
+  background-color: var(--green);
   padding: 5px 0px 20px 0;
 }
 
@@ -117,7 +133,7 @@ form {
   .video {
     /* height: 50%; */
     width: 100%;
-    height: 600px;
+    height: 700px;
     object-fit: cover;
   }
   .forside_video {
@@ -148,7 +164,7 @@ form {
     margin: auto auto 0 auto;
   }
 
-  .form_part {
-    margin: auto 0 0 40px;
-  }
+  /* .form_part2 {
+    margin: 30px;
+  } */
 }

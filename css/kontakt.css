@@ -14,7 +14,7 @@ img {
 
 .komiteer,
 .form_part {
-  margin: 20px;
+  margin: 5px;
   background-color: #f8f8f8;
 }
 
@@ -39,7 +39,7 @@ h1 {
 }
 
 .komitee {
-  margin: 40px 0 40px 0;
+  margin: 20px 20px 40px 20px;
 }
 .komitee p,
 .form_part p {
@@ -50,6 +50,7 @@ h1 {
 .komitee a {
   font-size: 18px;
   font-family: "Montserrat";
+  color: #a11a17;
 }
 
 /* Styling on red links/buttons */
@@ -80,13 +81,13 @@ h1 {
 }
 
 .Join {
-  background-color: rgba(176, 201, 174, 1);
+  background-color: var(--green);
   padding: 60px 0 60px 0;
 }
 
 form {
   padding: 2rem;
-  background: hsl(264 30% 96%);
+  background: var(--green);
   border-radius: 8px;
   display: grid;
   width: 100%;
@@ -99,7 +100,7 @@ form {
 }
 
 .form_part {
-  margin: 50px;
+  margin: 30px;
 }
 
 #Besked {
@@ -137,10 +138,8 @@ form {
   .komiteer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 2.6%;
-    gap: 40px;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    padding-left: 17%;
+    gap: 5%;
   }
 
   .komiteer,
