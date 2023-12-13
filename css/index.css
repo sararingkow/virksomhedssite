@@ -60,6 +60,11 @@ main {
   color: #a11a17;
 }
 
+.link_nyhed p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 form {
   padding: 2rem;
   background: hsl(264 30% 96%);
@@ -70,6 +75,11 @@ form {
   gap: 5px;
   margin-top: 20px;
   align-content: end;
+  margin: 20px;
+}
+
+.form_part2 h2 {
+  margin: 20px;
 }
 
 #Besked {
@@ -154,7 +164,7 @@ form {
     margin: auto auto 0 auto;
   }
 
-  .form_part {
-    margin: auto 0 0 40px;
-  }
+  /* .form_part2 {
+    margin: 30px;
+  } */
 }
