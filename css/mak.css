@@ -113,24 +113,3 @@ u {
     color: #ad0000;
   }
 }
-
-@media (max-width: 700px) {
-  main {
-    margin: 0%;
-  }
-  .menu {
-    border: 7px solid #a11a17;
-  }
-
-  .navbar a {
-    margin-bottom: 0px;
-  }
-
-  .navbar {
-    color: white;
-  }
-
-  .logo {
-    display: none;
-  }
-}
