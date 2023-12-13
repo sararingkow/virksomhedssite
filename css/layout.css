@@ -261,7 +261,7 @@ i:hover {
 .menu {
   display: flex;
   justify-content: space-between;
-  border-bottom: black solid;
+  border-bottom: 1px black solid;
 }
 
 .logo {
