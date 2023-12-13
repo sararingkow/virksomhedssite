@@ -37,6 +37,7 @@ img {
 
 .kontakt_knap:hover {
   background-color: rgb(127, 0, 0);
+  cursor: pointer;
 }
 
 .col_1-1 h2 {
@@ -97,6 +98,7 @@ form {
 
 .col_1-1 u {
   color: #a11a17;
+  cursor: pointer;
 }
 
 .grid_1-2 {
