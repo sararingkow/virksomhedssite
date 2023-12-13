@@ -123,6 +123,7 @@ form {
 
 .kontakt_knap:hover {
   background-color: rgb(127, 0, 0);
+  cursor: pointer;
 }
 
 .form_part .kontakt_knap {

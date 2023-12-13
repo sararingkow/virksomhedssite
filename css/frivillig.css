@@ -13,6 +13,10 @@ img {
   display: flex;
 }
 
+a {
+  cursor: pointer;
+}
+
 /*STICKY COLUMN*/
 
 .sticky-column {
@@ -222,5 +226,13 @@ ul.p2 {
 
   .main-column {
     margin: 0px;
+  }
+
+  .sticky-column {
+    padding: 20px;
+  }
+
+  .sticky-indhold {
+    padding: 20px;
   }
 }
