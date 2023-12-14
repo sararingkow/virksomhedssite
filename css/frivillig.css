@@ -51,6 +51,10 @@ h2 {
   padding-bottom: 20px;
 }
 
+.sticky-indhold h1 {
+  padding-bottom: 0px;
+}
+
 h3 {
   padding-bottom: 20px;
 }
@@ -65,7 +69,7 @@ form {
   border-radius: 8px;
   display: grid;
   gap: 5px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 textarea {
